@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en-ZA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Bambï Beauty — premium Cambodian and Vietnamese hair, made to be worn beautifully and kept for years.">
+  <title>Bambï Beauty — Hair, made heirloom.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Italiana&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="polish.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="announcement" role="region" aria-label="Delivery notice">Made to order with a minimum 12-business-day processing time <span aria-hidden="true">·</span> Nationwide delivery across South Africa</div>
+  <header class="site-header" id="top">
+    <button class="icon-button menu-button" id="menuButton" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">
+      <span></span><span></span>
+    </button>
+    <nav class="desktop-nav" aria-label="Primary">
+      <button class="text-link" data-scroll="catalogue">Shop</button>
+      <button class="text-link" data-scroll="craft">The Hair</button>
+    </nav>
+    <a class="wordmark" href="#top" aria-label="Bambï Beauty home"><strong>BAMBÏ</strong><small>BEAUTY</small></a>
+    <nav class="desktop-nav nav-right" aria-label="Secondary">
+      <button class="text-link" data-scroll="story">Our Story</button>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-button" id="searchButton" aria-label="Search products">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path></svg>
+      </button>
+      <button class="bag-button" id="bagButton" aria-label="Open shopping bag">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1 13H6L5 8Z"></path><path d="M9 9V6a3 3 0 0 1 6 0v3"></path></svg>
+        <span>Bag</span><b id="bagCount">0</b>
+      </button>
+    </div>
+  </header>
+
+  <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation" hidden>
+    <button class="mobile-nav-link" data-scroll="catalogue">Shop all hair <span>01</span></button>
+    <button class="mobile-nav-link" data-filter-link="Bone Straight">Bone Straight <span>02</span></button>
+    <button class="mobile-nav-link" data-filter-link="Curly & Wave">Curly & Wave <span>03</span></button>
+    <button class="mobile-nav-link" data-filter-link="Wear & Go">Wear & Go <span>04</span></button>
+    <button class="mobile-nav-link" data-filter-link="Raw Cambodian">Raw Cambodian <span>05</span></button>
+    <button class="mobile-nav-link" data-scroll="story">Our story <span>06</span></button>
+    <p>Considered hair. Personal service.<br>Delivered nationwide.</p>
+  </nav>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="hero-image">
+        <img src="assets/products/super-straight-frontal-wig-1.jpg" alt="Long, sleek Bambï Beauty straight hair">
+        <span class="vertical-note">The Bambï standard / Johannesburg, South Africa</span>
+      </div>
+      <div class="hero-copy">
+        <p class="eyebrow reveal">Premium hair collection / 2026</p>
+        <h1 id="heroTitle" class="reveal delay-1">Hair, made<br><em>heirloom.</em></h1>
+        <p class="hero-intro reveal delay-2">Premium Cambodian and Vietnamese hair chosen for softness, movement and a finish that stays beautiful beyond the first wear.</p>
+        <div class="hero-actions reveal delay-3">
+          <button class="button dark" data-scroll="catalogue">Shop the collection <span>↗</span></button>
+          <button class="underlink" data-filter-link="Raw Cambodian">Discover raw hair</button>
+        </div>
+        <div class="hero-proof reveal delay-3"><span>01</span><p>Thoughtfully sourced<br>Expertly finished</p></div>
+      </div>
+    </section>
+
+    <section class="collection-section" aria-labelledby="collectionTitle">
+      <div class="section-heading">
+        <p class="eyebrow">Find your finish</p>
+        <h2 id="collectionTitle">Shop by texture</h2>
+        <p>From glass-like lengths to cloud-soft curls, discover the hair that speaks your language.</p>
+      </div>
+      <div class="collection-grid">
+        <button class="collection-tile tall" data-filter-link="Bone Straight">
+          <img src="assets/products/super-straight-frontal-wig-2.jpg" alt="Bone straight hair texture">
+          <span><b>Bone Straight</b><small>Sleek. Polished. Precise.</small></span><i>01</i>
+        </button>
+        <button class="collection-tile" data-filter-link="Curly & Wave">
+          <img src="assets/products/lunna-curls-1.jpg" alt="Curly hair texture">
+          <span><b>Curly &amp; Wave</b><small>Movement in every strand.</small></span><i>02</i>
+        </button>
+        <button class="collection-tile" data-filter-link="Wear & Go">
+          <img src="assets/products/once-off-materclass-e-book-1.png" alt="Wear and go bob wig">
+          <span><b>Wear &amp; Go</b><small>Beautifully effortless.</small></span><i>03</i>
+        </button>
+        <button class="collection-tile wide" data-filter-link="Raw Cambodian">
+          <img src="assets/products/raw-cambodian-natural-straight-wig-1.png" alt="Raw Cambodian natural straight hair">
+          <span><b>Raw Cambodian</b><small>Untouched character. Lasting quality.</small></span><i>04</i>
+        </button>
+      </div>
+    </section>
+
+    <section class="featured-section" aria-labelledby="featuredTitle">
+      <div class="featured-head">
+        <div><p class="eyebrow">The edit</p><h2 id="featuredTitle">Bambï favourites</h2></div>
+        <button class="underlink" data-scroll="catalogue">View all 16 pieces</button>
+      </div>
+      <div class="featured-track" id="featuredProducts" aria-live="polite"></div>
+    </section>
+
+    <section class="service-band" aria-label="Our service promises">
+      <div><span>01</span><h3>Premium quality</h3><p>Hair selected for softness, fullness and longevity.</p></div>
+      <div><span>02</span><h3>Nationwide delivery</h3><p>Considered fulfilment across South Africa.</p></div>
+      <div><span>03</span><h3>HD lace craft</h3><p>Refined lace options for a seamless finish.</p></div>
+      <div><span>04</span><h3>Secure styling</h3><p>Glueless and frontal options made for confidence.</p></div>
+    </section>
+
+    <section class="craft" id="craft" aria-labelledby="craftTitle">
+      <div class="craft-copy">
+        <p class="eyebrow">The difference is in the detail</p>
+        <h2 id="craftTitle">An undetectable<br><em>first impression.</em></h2>
+        <p>Our HD and transparent lace options are chosen to create a refined hairline, while carefully selected densities bring believable movement and fullness.</p>
+        <button class="underlink" data-filter-link="HD Lace">Explore HD lace</button>
+      </div>
+      <div class="craft-image">
+        <img src="assets/products/virgin-hd-lace-closures-frontals-2.png" alt="Close detail of an HD lace hairline">
+        <div class="material-note"><span>HD</span><p>Fine lace<br>Natural finish</p></div>
+      </div>
+    </section>
+
+    <section class="catalogue" id="catalogue" aria-labelledby="catalogueTitle">
+      <div class="catalogue-intro">
+        <p class="eyebrow">The full collection</p>
+        <h2 id="catalogueTitle">Choose your Bambï</h2>
+        <p>Every piece in the current collection, from polished virgin textures to expressive raw Cambodian hair.</p>
+      </div>
+      <div class="catalogue-tools">
+        <div class="filter-row" id="categoryFilters" role="group" aria-label="Filter by collection">
+          <button class="filter active" data-filter="All" aria-pressed="true">All</button>
+          <button class="filter" data-filter="Bone Straight" aria-pressed="false">Bone Straight</button>
+          <button class="filter" data-filter="Curly & Wave" aria-pressed="false">Curly &amp; Wave</button>
+          <button class="filter" data-filter="Wear & Go" aria-pressed="false">Wear &amp; Go</button>
+          <button class="filter" data-filter="Raw Cambodian" aria-pressed="false">Raw Cambodian</button>
+          <button class="filter" data-filter="HD Lace" aria-pressed="false">HD Lace</button>
+        </div>
+        <div class="select-tools">
+          <label>Availability<select id="availabilityFilter"><option value="all">All pieces</option><option value="available">Available now</option></select></label>
+          <label>Sort by<select id="sortSelect"><option value="featured">Featured</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option></select></label>
+        </div>
+      </div>
+      <div class="results-meta"><p id="resultCount">Loading collection…</p><button class="underlink" id="clearFilters" hidden>Clear filters</button></div>
+      <div class="product-grid" id="productGrid" aria-live="polite"></div>
+      <div class="empty-state" id="emptyState" hidden><p class="eyebrow">Nothing found</p><h3>No piece matches your edit.</h3><p>Try a different texture, availability choice or search term.</p><button class="button dark" id="emptyClear">View all hair</button></div>
+    </section>
+
+    <section class="story" id="story" aria-labelledby="storyTitle">
+      <div class="story-image"><img src="assets/products/raw-cambodian-curly-glueless-wig-13x4-2.png" alt="Raw Cambodian curly Bambï Beauty wig"></div>
+      <div class="story-copy">
+        <p class="eyebrow">Our story / Our standard</p>
+        <h2 id="storyTitle">Beauty should feel<br><em>like your own.</em></h2>
+        <blockquote>“Hair that holds its character, its movement, and your confidence.”</blockquote>
+        <p>At Bambï Beauty, raw Cambodian hair sits at the heart of our collection. Its natural character and long-term durability make every piece worth returning to.</p>
+        <p>For our most-loved textures, we use selective, minimal processing—preserving the feel and performance of beautiful hair while creating the polished finish our clients ask for.</p>
+        <button class="underlink" data-filter-link="Raw Cambodian">Shop raw Cambodian</button>
+      </div>
+    </section>
+
+    <section class="newsletter" aria-labelledby="newsletterTitle">
+      <div><p class="eyebrow">Private notes from Bambï</p><h2 id="newsletterTitle">The beauty letter.</h2></div>
+      <form id="newsletterForm"><label for="newsletterEmail">Email address</label><div><input id="newsletterEmail" type="email" required autocomplete="email" placeholder="you@example.com"><button type="submit">Join the list <span>→</span></button></div><p id="newsletterMessage" role="status"></p></form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-brand"><a class="wordmark light" href="#top"><strong>BAMBÏ</strong><small>BEAUTY</small></a><p>Luxury hair / Lasting quality / Confidence, always.</p></div>
+    <div class="footer-links"><div><h3>Explore</h3><button data-scroll="story">About</button><a href="mailto:bambi.southafrica@gmail.com">Contact</a><a href="https://bambibeautsa.myshopify.com/pages/order-tracking" target="_blank" rel="noreferrer">Order tracking</a></div><div><h3>Client care</h3><a href="https://bambibeautsa.myshopify.com/policies/shipping-policy" target="_blank" rel="noreferrer">Shipping</a><a href="https://bambibeautsa.myshopify.com/policies/refund-policy" target="_blank" rel="noreferrer">Returns</a><a href="mailto:bambi.southafrica@gmail.com">bambi.southafrica@gmail.com</a></div><div><h3>Follow</h3><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram ↗</a></div></div>
+    <div class="footer-bottom"><span>© <span id="year"></span> Bambï Beauty</span><span>Johannesburg / South Africa</span><span>Storefront concept</span></div>
+  </footer>
+
+  <div class="overlay" id="overlay" hidden></div>
+  <aside class="drawer search-drawer" id="searchDrawer" hidden aria-labelledby="searchTitle">
+    <div class="drawer-head"><div><p class="eyebrow">Find your piece</p><h2 id="searchTitle">Search Bambï</h2></div><button class="close-button" data-close aria-label="Close search">×</button></div>
+    <label class="search-field" for="searchInput"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path></svg><input id="searchInput" type="search" placeholder="Try “curly”, “bob” or “HD lace”" autocomplete="off"></label>
+    <p class="search-hint">Results update in the full collection as you type.</p>
+  </aside>
+
+  <aside class="drawer bag-drawer" id="bagDrawer" hidden aria-labelledby="bagTitle">
+    <div class="drawer-head"><div><p class="eyebrow">Your selection</p><h2 id="bagTitle">The bag <span id="bagTitleCount">(0)</span></h2></div><button class="close-button" data-close aria-label="Close bag">×</button></div>
+    <div class="bag-items" id="bagItems"></div>
+    <div class="bag-empty" id="bagEmpty"><p>Your bag is waiting.</p><span>Choose a piece from the collection to begin.</span><button class="underlink" data-close data-scroll="catalogue">Explore the collection</button></div>
+    <div class="bag-summary" id="bagSummary" hidden><div><span>Subtotal</span><strong id="bagSubtotal">R 0.00</strong></div><p>Delivery is calculated by the live store. A minimum 12-business-day processing time applies.</p><button class="button dark full" id="checkoutButton">Continue to secure checkout <span>↗</span></button></div>
+  </aside>
+
+  <dialog class="product-dialog" id="productDialog" aria-labelledby="productTitle">
+    <button class="close-button dialog-close" data-dialog-close aria-label="Close product details">×</button>
+    <div class="product-detail" id="productDetail"></div>
+  </dialog>
+
+  <dialog class="notice-dialog" id="noticeDialog" aria-labelledby="noticeTitle">
+    <button class="close-button dialog-close" data-notice-close aria-label="Close notice">×</button>
+    <p class="eyebrow">Prototype notice</p><h2 id="noticeTitle">Your selection is ready.</h2><p>This redesigned storefront is a browsable concept and is not connected to Bambï Beauty’s live Shopify checkout.</p><a class="button dark full" href="https://bambibeautsa.myshopify.com/" target="_blank" rel="noreferrer">Continue on the live store <span>↗</span></a><button class="underlink" data-notice-close>Keep browsing here</button>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
