@@ -7,7 +7,7 @@ const out = path.join(root, 'dist');
 const catalog = JSON.parse(await readFile(path.join(root, 'data/source-products.json'), 'utf8'));
 if (!catalog.products?.length) throw new Error('Product catalogue is empty');
 await mkdir(out, { recursive: true });
-for (const file of ['index.html', 'styles.css', 'polish.css', 'app.js', 'assets', 'data']) {
+for (const file of ['index.html', 'catalogue.html', 'product.html', 'story.html', 'contact.html', 'styles.css', 'cinematic.css', 'app.js', 'assets', 'data']) {
   await access(path.join(root, file));
   await cp(path.join(root, file), path.join(out, file), { recursive: true });
 }

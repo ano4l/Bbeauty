@@ -8,7 +8,7 @@ Import `ano4l/Bbeauty` in Vercel and choose the `main` branch.
 - Output directory: `dist`
 - Environment variables: none required
 
-The checked-in vercel.json provides the build and output settings. The dependency-free build publishes HTML, CSS, JavaScript, catalogue data and product images. Research files are excluded from the build output.
+The checked-in vercel.json provides the build and output settings. The dependency-free build publishes all five HTML routes, shared CSS and JavaScript, catalogue data, and product images. Research files are excluded from the build output.
 
 Verify locally with `npm run check` and `npm run build`.
 
